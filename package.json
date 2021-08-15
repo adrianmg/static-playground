@@ -4,7 +4,7 @@
   "description": "Minimal bootstrap for static site prototyping with hot-reload",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/browser-sync/dist/bin.js --config ./res/bs-config.js",
+    "start": "node_modules/browser-sync/dist/bin.js --config ./res/bs-config.js"
   },
   "repository": {
     "type": "git",

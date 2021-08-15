@@ -16,11 +16,11 @@ module.exports = {
     "ui": {
         "port": 3001
     },
-    "files": false,
+    "files": false, // You can specificy an array of files to watch.
     "watchEvents": [
         "change"
     ],
-    "watch": true,
+    "watch": true, // You can turn this off and use "files" instead (check the docs for more about this)
     "ignore": [],
     "single": false,
     "watchOptions": {
