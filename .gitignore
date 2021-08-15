@@ -1,0 +1,8 @@
+# node.js
+node_modules
+
+# hard nope
+.DS_Store
+
+# you never now…
+.env

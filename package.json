@@ -1,0 +1,23 @@
+{
+  "name": "static-playground",
+  "version": "1.0.0",
+  "description": "Minimal bootstrap for static site prototyping with hot-reload",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/browser-sync/dist/bin.js --config ./res/bs-config.js",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianmg/static-playground.git"
+  },
+  "author": "Adrian Mato (https://adrianmato.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianmg/static-playground/issues"
+  },
+  "homepage": "https://github.com/adrianmg/static-playground#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
