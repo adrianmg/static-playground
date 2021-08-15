@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node_modules/browser-sync/dist/bin.js --config ./res/bs-config.js",
-    "build": "browserify index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
