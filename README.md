@@ -22,7 +22,7 @@ npm install
 npm start
 ```
 
-This will also generate a `dist` folder with the compiled files so that you can deploy your project to any provider quickly.
+This will generate a `dist` folder with the compiled files so that you can deploy your project to any provider quickly.
 
 It will automatically start a local server at `http://localhost:3000`. You can customize what files are watched and other options in `res/bs-config.js`.
 
