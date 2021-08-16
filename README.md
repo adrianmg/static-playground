@@ -4,7 +4,7 @@
 
 A boilerplate including **hot-reload** and **HTML templating** to prototype **static websites** with a minimal footprint. It comes with:
 
-- Nunjucks HTML template engine with pages and templates
+- [Nunjucks](https://mozilla.github.io/nunjucks/) HTML template engine with pages and templates
 - An automatic process to compile your site to static HTML
 - A webserver with hot-reload
 - An external server: test your site on mobile and other devices
