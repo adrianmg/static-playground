@@ -31,7 +31,7 @@ There's also an external server at `http://<your-ip>:3001` that you can use to t
 
 ## Beyond the basics
 
-Although it's not part of this boilerplate, you can grow the functionality by combining it with [gulp](https://browsersync.io/docs/gulp), and start supporting `SCSS` and other things you may need.
+Although it's not part of this boilerplate, you can grow the functionality by adding [Parcel] to bundle your JS modules.
 
 ## License
 
