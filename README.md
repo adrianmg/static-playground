@@ -2,8 +2,10 @@
 
 <img src="https://user-images.githubusercontent.com/589285/129468656-db58c34c-d92b-4f51-ba4d-cb6417c64de5.gif" alt="Preview of the playground" width="1280">
 
-A boilerplate including **hot-reload** to prototype **static websites** with a minimal footprint. It comes with:
+A boilerplate including **hot-reload** and **HTML templating** to prototype **static websites** with a minimal footprint. It comes with:
 
+- Nunjucks HTML template engine with pages and templates
+- An automatic process to compile your site to static HTML
 - A webserver with hot-reload
 - An external server: test your site on mobile and other devices
 - Real-time synchronization between connected devices
@@ -19,6 +21,8 @@ npm install
 npm start
 ```
 
+This will also generate a `dist` folder with the compiled files so that you can deploy your project to any provider quickly.
+
 It will automatically start a local server at `http://localhost:3000`. You can customize what files are watched and other options in `res/bs-config.js`.
 
 If you visit `http://localhost:3001`, you will see a dashboard to customize other options from [Browsersync](https://browsersync.io).
@@ -27,7 +31,7 @@ There's also an external server at `http://<your-ip>:3001` that you can use to t
 
 ## Beyond the basics
 
-Although it's not part of this boilerplate, you can grow the functionality by combining it with [gulp](https://browsersync.io/docs/gulp), and start supporting `SCSS` and other things you may need.
+Although it's not part of this boilerplate, you can grow the functionality by adding [Parcel] to bundle your JS modules.
 
 ## License
 

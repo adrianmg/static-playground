@@ -1,0 +1,11 @@
+{#
+  Check: https://mozilla.github.io/nunjucks/templating.html
+  to learn more about the Nunjucks templating language.
+#}
+
+{% set title = 'Hello, Playground!' %}
+{% extends "_page.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p>Don't forget to check the README for more information.</p>
+{% endblock %}
