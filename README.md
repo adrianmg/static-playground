@@ -4,8 +4,8 @@
 
 A boilerplate including **hot-reload** and **HTML templating** to prototype **static websites** with a minimal footprint. It comes with:
 
-- Nunjucks HTML template engine to reuse pieces
-- A ready-to-use kit to compile your site (SASS, and templates)
+- Nunjucks HTML template engine with pages and templates
+- An automatic process to compile your site to static HTML
 - A webserver with hot-reload
 - An external server: test your site on mobile and other devices
 - Real-time synchronization between connected devices
