@@ -21,6 +21,8 @@ npm install
 npm start
 ```
 
+This will also generate a `dist` folder with the compiled files so that you can deploy your project to any provider quickly.
+
 It will automatically start a local server at `http://localhost:3000`. You can customize what files are watched and other options in `res/bs-config.js`.
 
 If you visit `http://localhost:3001`, you will see a dashboard to customize other options from [Browsersync](https://browsersync.io).
