@@ -2,8 +2,10 @@
 
 <img src="https://user-images.githubusercontent.com/589285/129468656-db58c34c-d92b-4f51-ba4d-cb6417c64de5.gif" alt="Preview of the playground" width="1280">
 
-A boilerplate including **hot-reload** to prototype **static websites** with a minimal footprint. It comes with:
+A boilerplate including **hot-reload** and **HTML templating** to prototype **static websites** with a minimal footprint. It comes with:
 
+- Nunjucks HTML template engine to reuse pieces
+- A ready-to-use kit to compile your site (SASS, and templates)
 - A webserver with hot-reload
 - An external server: test your site on mobile and other devices
 - Real-time synchronization between connected devices
