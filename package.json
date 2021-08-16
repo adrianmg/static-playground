@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/adrianmg/static-playground#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.5"
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.37.5"
   }
 }
