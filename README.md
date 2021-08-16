@@ -1,4 +1,4 @@
-# Static playground
+# Static Playground
 
 <img src="https://user-images.githubusercontent.com/589285/129468656-db58c34c-d92b-4f51-ba4d-cb6417c64de5.gif" alt="Preview of the playground" width="1280">
 
