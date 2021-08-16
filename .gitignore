@@ -6,3 +6,6 @@ node_modules
 
 # you never now…
 .env
+
+# build output
+dist
